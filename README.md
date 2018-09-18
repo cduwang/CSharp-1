@@ -28,15 +28,9 @@ http://www.cnblogs.com/qixue/p/5201245.html
 - 如何在IntelliJ IDEA中使用.ignore插件忽略不必要提交的文件   https://blog.csdn.net/lkx94/article/details/72876063
 
 ```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->John: Hello John, how are you?
-    loop Healthcheck
-        John->John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail...
-    John-->Alice: Great!
-    John->Bob: How about you?
-    Bob-->John: Jolly good!
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
 ```
