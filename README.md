@@ -27,23 +27,13 @@ http://www.cnblogs.com/qixue/p/5201245.html
 - 在线XML美化器： http://web.chacuo.net/formatxml
 - 如何在IntelliJ IDEA中使用.ignore插件忽略不必要提交的文件   https://blog.csdn.net/lkx94/article/details/72876063
 
-
-```flow js
+```
+flow
 st=>start: Start
-i=>inputoutput: 输入年份n
-cond1=>condition: n能否被4整除？
-cond2=>condition: n能否被100整除？
-cond3=>condition: n能否被400整除？
-o1=>inputoutput: 输出非闰年
-o2=>inputoutput: 输出非闰年
-o3=>inputoutput: 输出闰年
-o4=>inputoutput: 输出闰年
+op=>operation: Your Operation
+cond=>condition: Yes or No?
 e=>end
-st->i->cond1
-cond1(no)->o1->e
-cond1(yes)->cond2
-cond2(no)->o3->e
-cond2(yes)->cond3
-cond3(yes)->o2->e
-cond3(no)->o4->e
+st->op->cond
+cond(yes)->e
+cond(no)->op
 ```
