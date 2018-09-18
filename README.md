@@ -10,7 +10,7 @@ Open XML SDK 2.5 for Office 简化了操作 Open XML 包和包中基础 Open XML
 #了解 Open XML 文件格式
 - https://docs.microsoft.com/zh-cn/office/open-xml/understanding-the-open-xml-file-formats
 
-# 使用OpenXML操作Office文档样例：
+# 使用OpenXML操作Office文档样例
 http://www.cnblogs.com/qixue/p/5201245.html
 
 #如何兼容office 2007格式
