@@ -1,9 +1,8 @@
 # 课程准备
-- 每个人申请一个GitHub账号: https://github.com
+- 每个人申请一个GitHub账号: https://github.com，并且在你的账号下创建一个项目，名称是CSharp。
 - 开发环境 vs2017，开发语言C#
 - 文档编辑环境 Intellij Idea 2017
 - 课程目标：office 试题比对项目
-
 
 # C# 教程
 - http://www.runoob.com/csharp/csharp-tutorial.html
@@ -27,3 +26,17 @@ http://www.cnblogs.com/qixue/p/5201245.html
 - GitLab Markdown 格式：  https://gitlab.com/help/user/markdown
 - 在线XML美化器： http://web.chacuo.net/formatxml
 - 如何在IntelliJ IDEA中使用.ignore插件忽略不必要提交的文件   https://blog.csdn.net/lkx94/article/details/72876063
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->John: Hello John, how are you?
+    loop Healthcheck
+        John->John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail...
+    John-->Alice: Great!
+    John->Bob: How about you?
+    Bob-->John: Jolly good!
+```
