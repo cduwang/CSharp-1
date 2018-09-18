@@ -28,7 +28,7 @@ http://www.cnblogs.com/qixue/p/5201245.html
 - 如何在IntelliJ IDEA中使用.ignore插件忽略不必要提交的文件   https://blog.csdn.net/lkx94/article/details/72876063
 
 
-```flow
+```flow js
 st=>start: Start
 i=>inputoutput: 输入年份n
 cond1=>condition: n能否被4整除？
