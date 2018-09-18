@@ -1,6 +1,6 @@
 # 课程准备
 - 每个人申请一个GitHub账号: https://github.com
-- 开发环境 vs2017
+- 开发环境 vs2017，开发语言C#
 - 文档编辑环境 Intellij Idea 2017
 - 课程目标：office 试题比对项目
 
