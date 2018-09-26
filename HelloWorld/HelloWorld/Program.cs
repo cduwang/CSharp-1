@@ -14,6 +14,21 @@ namespace RectangleApplication
         /// </summary>
         double length;
         double width;
+
+        double length_mm
+        {
+            get
+            {
+                return Val2mm(length);
+            }
+        }
+        double width_mm
+        {
+            get
+            {
+                return Val2mm(width);
+            }
+        }
         /// <summary>
         /// 矩形的长度单位
         /// </summary>
@@ -95,10 +110,11 @@ namespace RectangleApplication
                 return false;
             }
 
-            // Return true if the fields match:
-            // lenght => this.length
-            if (Val2mm(length) != a2.Val2mm(a2.length) ||
-                Val2mm(width) != a2.Val2mm(a2.width) )
+
+                // Return true if the fields match:
+                // lenght => this.length
+                if (length_mm != a2.length_mm ||
+                    width_mm != a2.width_mm)
                 return false;
             else
                 return true;
@@ -119,7 +135,7 @@ namespace RectangleApplication
             //Rectangle r3 = r1;//r3是房间1的钥匙
 
             r1.Acceptdetails(1.4, 2, "m");
-            r2.Acceptdetails(1400, 2000, "mm");            
+            r2.Acceptdetails(1400, 2000, "mm");
 
             r1.Display();
             r2.Display();
