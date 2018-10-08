@@ -1,4 +1,4 @@
-# 实验1 LCS算法的实现源码
+# 实验1 LCS算法的实现源码要
 LCS（Longest Common Subsequence）最长公共子序列，它是求两个字符串最长公共子序列的问题。
 
 ## 实验目的和要求
