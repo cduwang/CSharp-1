@@ -7,3 +7,8 @@
 *.iml
 out
 gen
+/test1/LCS/.vs
+/test1/LCS/bin
+/test1/LCS/obj
+
+.gitattributes
