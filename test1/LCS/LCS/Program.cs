@@ -25,13 +25,25 @@ namespace LCS
                 new Rectangle(1.4, 2,UnitValues.m),new Rectangle(1.4, 2, UnitValues.m)
             };
 
+            Person[] personList1 =
+            {
+                new Person("zhang",31),new Person("wang",12)
+            };
+            Person[] personList2 =
+            {
+                new Person("wang",12)
+            };
+
             LCS<int> intLCS = new LCS<int>(intList1, intList2);
             LCS<string> strLCS = new LCS<string>(strList1, strList2);
             LCS<Rectangle> recLCS = new LCS<Rectangle>(recList1, recList2);
 
+            LCS<Person> personLCS = new LCS<Person>(personList1, personList2);
+
             intLCS.Demo();
             strLCS.Demo();
             recLCS.Demo();
+            personLCS.Demo();
 
 
             Console.ReadLine();

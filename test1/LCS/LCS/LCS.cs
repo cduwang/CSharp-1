@@ -215,7 +215,7 @@ namespace LCS
             Console.WriteLine("list1:");
             foreach (T i in x)
             {
-                Console.Write($"{i}  ");
+                Console.Write(string.Format("{0}  ",i));
             }
             Console.WriteLine();
 
