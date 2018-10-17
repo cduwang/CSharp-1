@@ -7,6 +7,8 @@
 
 # C# 教程
 - http://www.runoob.com/csharp/csharp-tutorial.html
+# XML教程
+- http://www.runoob.com/xml/xml-tutorial.html
 
 # Open XML SDK 2.5 for Office
 Open XML SDK 2.5 for Office 简化了操作 Open XML 包和包中基础 Open XML 架构元素的任务。Open XML SDK 2.5 中的类封装开发人员对 Open XML 包所执行的许多常见任务，以便您只使用少数几行代码就可以执行复杂的操作。
@@ -27,4 +29,5 @@ http://www.cnblogs.com/qixue/p/5201245.html
 - GitHub Markdown 格式：  https://help.github.com/articles/basic-writing-and-formatting-syntax/
 - 在线XML美化器： http://web.chacuo.net/formatxml
 - 如何在IntelliJ IDEA中使用.ignore插件忽略不必要提交的文件   https://blog.csdn.net/lkx94/article/details/72876063
+
 
