@@ -12,3 +12,6 @@ gen
 /test1/LCS/obj
 
 .gitattributes
+/test2/ReadAllText/packages/
+/test2/ReadAllText/ReadAllText/bin/
+/test2/ReadAllText/ReadAllText/obj/
