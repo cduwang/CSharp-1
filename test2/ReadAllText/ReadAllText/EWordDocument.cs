@@ -12,6 +12,7 @@ namespace ReadAllText
     public class EWordDocument
     {
         public string Text;
+
         public void Open(string path)
         {
             //语句结束后，自动释放WordDocument，这里不让它消毁
