@@ -35,5 +35,5 @@ http://www.cnblogs.com/qixue/p/5201245.html
 - GitHub Markdown 格式：  https://help.github.com/articles/basic-writing-and-formatting-syntax/
 - 在线XML美化器： http://web.chacuo.net/formatxml
 - 如何在IntelliJ IDEA中使用.ignore插件忽略不必要提交的文件   https://blog.csdn.net/lkx94/article/details/72876063
-
+- C#对象序列化与反序列化 https://www.cnblogs.com/yzenet/p/3622833.html
 
