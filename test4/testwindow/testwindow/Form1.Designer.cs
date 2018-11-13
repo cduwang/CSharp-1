@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.ErrorMsg = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -37,7 +39,6 @@
             this.考号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.姓名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.分数 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ErrorMsg = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -67,6 +68,18 @@
             this.splitContainer1.Size = new System.Drawing.Size(800, 450);
             this.splitContainer1.SplitterDistance = 87;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // ErrorMsg
+            // 
+            this.ErrorMsg.AutoSize = true;
+            this.ErrorMsg.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ErrorMsg.ForeColor = System.Drawing.Color.Red;
+            this.ErrorMsg.Location = new System.Drawing.Point(96, 45);
+            this.ErrorMsg.Name = "ErrorMsg";
+            this.ErrorMsg.Size = new System.Drawing.Size(47, 15);
+            this.ErrorMsg.TabIndex = 4;
+            this.ErrorMsg.Text = "Error";
+            this.ErrorMsg.Visible = false;
             // 
             // label1
             // 
@@ -135,24 +148,13 @@
             this.分数.HeaderText = "分数";
             this.分数.Name = "分数";
             // 
-            // ErrorMsg
-            // 
-            this.ErrorMsg.AutoSize = true;
-            this.ErrorMsg.Font = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ErrorMsg.ForeColor = System.Drawing.Color.Red;
-            this.ErrorMsg.Location = new System.Drawing.Point(96, 45);
-            this.ErrorMsg.Name = "ErrorMsg";
-            this.ErrorMsg.Size = new System.Drawing.Size(47, 15);
-            this.ErrorMsg.TabIndex = 4;
-            this.ErrorMsg.Text = "Error";
-            this.ErrorMsg.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.splitContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "考试系统";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
